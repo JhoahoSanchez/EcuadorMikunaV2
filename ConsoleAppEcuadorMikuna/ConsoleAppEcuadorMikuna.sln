@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppEcuadorMikuna", "ConsoleAppEcuadorMikuna\ConsoleAppEcuadorMikuna.csproj", "{281DC53A-16D7-48C5-8015-5F48E8B000FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EcuadorMikuna_V2_API", "EcuadorMikuna_V2_API\EcuadorMikuna_V2_API.csproj", "{7389C6D5-3E57-41AB-99BC-E759DD3F5199}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{E87EE874-2674-41A0-80C1-F727C1943053}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{E4634227-CE75-4609-BA9D-516144925756}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "ecuadormikuna_v2_client", "EcuadorMikuna_V2_Client\ecuadormikuna_v2_client.esproj", "{FA172FFE-45D8-40AF-AD8E-833A952000B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{281DC53A-16D7-48C5-8015-5F48E8B000FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{281DC53A-16D7-48C5-8015-5F48E8B000FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{281DC53A-16D7-48C5-8015-5F48E8B000FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{281DC53A-16D7-48C5-8015-5F48E8B000FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7389C6D5-3E57-41AB-99BC-E759DD3F5199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7389C6D5-3E57-41AB-99BC-E759DD3F5199}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7389C6D5-3E57-41AB-99BC-E759DD3F5199}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7389C6D5-3E57-41AB-99BC-E759DD3F5199}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA172FFE-45D8-40AF-AD8E-833A952000B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA172FFE-45D8-40AF-AD8E-833A952000B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA172FFE-45D8-40AF-AD8E-833A952000B7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FA172FFE-45D8-40AF-AD8E-833A952000B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA172FFE-45D8-40AF-AD8E-833A952000B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA172FFE-45D8-40AF-AD8E-833A952000B7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7389C6D5-3E57-41AB-99BC-E759DD3F5199} = {E87EE874-2674-41A0-80C1-F727C1943053}
+		{FA172FFE-45D8-40AF-AD8E-833A952000B7} = {E4634227-CE75-4609-BA9D-516144925756}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FEB9595-4629-4C40-948C-36B1C42BA3FD}
+	EndGlobalSection
+EndGlobal
