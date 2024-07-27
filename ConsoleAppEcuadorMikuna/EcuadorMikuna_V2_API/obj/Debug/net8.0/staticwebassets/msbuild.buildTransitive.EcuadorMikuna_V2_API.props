@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\EcuadorMikuna_V2_API.props" />
+</Project>
