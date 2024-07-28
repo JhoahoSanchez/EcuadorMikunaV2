@@ -2,25 +2,25 @@
 {
     public class Client : User
     {
-        protected string address { get; set; }
-        private List<Order> orders { get; set; }
+        public string Address { get; set; }
+        public List<Order> Orders { get; set; }
 
         public Client() { 
-            orders = new List<Order>();
+            Orders = new List<Order>();
         }
 
         public Client(string username) {
             this.Name = username;
-            orders = new List<Order>();
+            Orders = new List<Order>();
         }
         public Client(string username, string password) {
             this.Name = username;
             this.Password = password;
-            this.orders = new List<Order>();
+            this.Orders = new List<Order>();
         }
         public Client(string address, List<Order> orders) : this(address)
         {
-            this.orders = orders;
+            this.Orders = orders;
         }
     }
 }

@@ -2,16 +2,16 @@
 {
     public class Store
     {
-        private int Id { get; set; }
-        private string Name { get; set; }
-        private string Address { get; set; }
-        private string City { get; set; }
-        private string State { get; set; }
-        private string PostalCode { get; set; }
-        private string Country { get; set; }
-        private string Phone { get; set; }
-        private Inventory Inventory { get; set; }
-        private List<Worker> WorkerList { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Address { get; set; }
+        public string City { get; set; }
+        public string State { get; set; }
+        public string PostalCode { get; set; }
+        public string Country { get; set; }
+        public string Phone { get; set; }
+        public Inventory Inventory { get; set; }
+        public List<Worker> WorkerList { get; set; }
 
         public Store() { }
 

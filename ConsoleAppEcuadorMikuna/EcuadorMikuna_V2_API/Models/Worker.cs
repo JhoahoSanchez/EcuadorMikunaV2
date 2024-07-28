@@ -2,8 +2,8 @@
 {
     public class Worker : User
     {
-        private Store Store {  get; set; }
-        private String JobPosition { get; set; }
+        public Store Store {  get; set; }
+        public String JobPosition { get; set; }
         public Worker() {
             Store = new Store();
             JobPosition = string.Empty;

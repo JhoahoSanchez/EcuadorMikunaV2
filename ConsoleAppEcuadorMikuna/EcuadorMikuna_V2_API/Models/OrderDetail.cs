@@ -2,8 +2,11 @@
 {
     public class OrderDetail
     {
-        private string IdOrder;
-        private List<Product> Products;
-        public OrderDetail() { }
+        public int OrderDetailId { get; set; }
+        public int OrderId { get; set; }
+        public Order Order { get; set; }
+        public int ProductId { get; set; }
+        public Product Product { get; set; }
+        public int Quantity { get; set; }
     }
 }

@@ -2,14 +2,16 @@
 {
     public class Order
     {
-        private string Id { get; set; }
-        private int ClientID { get; set; }
-        private string StoreID { get; set; }
-        private DateTime DateTime { get; set; }
-        private string Type { get; set; }
-        private decimal Price { get; set; }
-        private OrderDetail Detail { get; set; }
+        public int Id { get; set; }
+        public int ClientID { get; set; }
+        public string StoreID { get; set; }
+        public DateTime OrderDate { get; set; }
+        public string Type { get; set; }
+        public decimal Price { get; set; }
+        public List<OrderDetail> OrderDetails { get; set; }
 
-        public Order() { }
+        public Order() {
+            OrderDetails = new List<OrderDetail>();
+        }
     }
 }
