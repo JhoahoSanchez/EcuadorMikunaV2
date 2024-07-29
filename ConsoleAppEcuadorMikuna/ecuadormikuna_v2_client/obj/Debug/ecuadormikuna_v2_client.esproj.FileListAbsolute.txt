@@ -1,1 +1,2 @@
 D:\Programacion\Web\DotNET\EcuadorMikuna_V2\ConsoleAppEcuadorMikuna\EcuadorMikuna_V2_Client\obj\Debug\ecuadormikuna_v2_client.esproj.CoreCompileInputs.cache
+D:\Windows\Programacion\AplicacionesWebAvanzadas\DotNET\EcuadorMikunaV2\EcuadorMikunaV2\ConsoleAppEcuadorMikuna\EcuadorMikuna_V2_Client\obj\Debug\ecuadormikuna_v2_client.esproj.CoreCompileInputs.cache
