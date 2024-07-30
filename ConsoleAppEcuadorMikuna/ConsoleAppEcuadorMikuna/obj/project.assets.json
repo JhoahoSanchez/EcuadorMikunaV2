@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\jhoah\\.nuget\\packages\\": {}
+    "C:\\Users\\Jhoaho\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Windows\\Programacion\\AplicacionesWebAvanzadas\\DotNET\\EcuadorMikunaV2\\EcuadorMikunaV2\\ConsoleAppEcuadorMikuna\\ConsoleAppEcuadorMikuna\\ConsoleAppEcuadorMikuna.csproj",
+      "projectUniqueName": "D:\\Programacion\\Web\\DotNET\\EcuadorMikuna_V2\\ConsoleAppEcuadorMikuna\\ConsoleAppEcuadorMikuna\\ConsoleAppEcuadorMikuna.csproj",
       "projectName": "ConsoleAppEcuadorMikuna",
-      "projectPath": "D:\\Windows\\Programacion\\AplicacionesWebAvanzadas\\DotNET\\EcuadorMikunaV2\\EcuadorMikunaV2\\ConsoleAppEcuadorMikuna\\ConsoleAppEcuadorMikuna\\ConsoleAppEcuadorMikuna.csproj",
-      "packagesPath": "C:\\Users\\jhoah\\.nuget\\packages\\",
-      "outputPath": "D:\\Windows\\Programacion\\AplicacionesWebAvanzadas\\DotNET\\EcuadorMikunaV2\\EcuadorMikunaV2\\ConsoleAppEcuadorMikuna\\ConsoleAppEcuadorMikuna\\obj\\",
+      "projectPath": "D:\\Programacion\\Web\\DotNET\\EcuadorMikuna_V2\\ConsoleAppEcuadorMikuna\\ConsoleAppEcuadorMikuna\\ConsoleAppEcuadorMikuna.csproj",
+      "packagesPath": "C:\\Users\\Jhoaho\\.nuget\\packages\\",
+      "outputPath": "D:\\Programacion\\Web\\DotNET\\EcuadorMikuna_V2\\ConsoleAppEcuadorMikuna\\ConsoleAppEcuadorMikuna\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jhoah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Jhoaho\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

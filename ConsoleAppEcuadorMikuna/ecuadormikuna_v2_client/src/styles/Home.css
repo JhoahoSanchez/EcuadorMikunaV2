@@ -2,13 +2,14 @@
   font-family: "Arial, sans-serif";
   color: #333;
   text-align: center;
-  padding: 20px;
+  padding: 20px 0;
+  background-color: #148596b9;
 }
 
 .hero-section {
   position: relative;
   height: 60vh;
-  background-color: #f5f5f5;
+  background-color: #fdfce4;
   overflow: hidden;
 }
 
@@ -24,15 +25,21 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: #fff2ff;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
+.hero-text div {
+  background-color: #148596b9;
+  padding: 10px;
+  border-radius: 10px;
+}
+
 .cta-button {
-  background-color: #ffcc00;
+  background-color: #fdfce4;
   border: none;
   padding: 10px 20px;
-  color: #333;
+  color: #148496;
   font-size: 16px;
   cursor: pointer;
   margin-top: 20px;
@@ -59,9 +66,4 @@
   height: 150px;
   object-fit: cover;
   border-radius: 10px;
-}
-
-.outer-div{
-  width: auto;
-  background-color: blue;
 }

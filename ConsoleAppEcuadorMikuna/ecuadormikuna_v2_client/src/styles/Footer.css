@@ -1,18 +1,17 @@
 .footer {
-    background-color: #b37f54;
-    color: white;
-    text-align: center;
-    padding: 1rem 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-  }
-  
-  .footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .footer p {
-    margin: 0;
-  }
+  background-color: #fdfce4;
+  color: #148496;
+  text-align: center;
+  padding: 1rem 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer p {
+  margin: 0;
+}
