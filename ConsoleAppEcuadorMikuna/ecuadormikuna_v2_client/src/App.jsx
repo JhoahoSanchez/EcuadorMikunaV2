@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import HomePage from "./pages/HomePage";
 import About from "./components/About";
@@ -14,18 +14,24 @@ import SignUp from "./components/SignUp";
 import ForgotPassword from "./components/ForgotPassword";
 import ResetPassword from "./components/ResetPassword";
 import "./App.css";
+import RouterManager from "./router/router";
+import ProductPage from "./pages/ProductPage";
 
 const App = () => {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        {/*<Route path="/about" component={AboutPage} />*/}
-        {/* Añadir más rutas según sea necesario */}
-      </Routes>
-      <Footer />
-    </Router>
-  );
+  const isAuthenticated = true;
+  const routerManager = new RouterManager();
+
+  //agregar las rutas
+  routerManager.addRoute("/", <HomePage />);
+  routerManager.addRoute("/login", <Login />);
+  routerManager.addRoute("/signup", <SignUp />);
+  routerManager.addRoute("/forgot-password", <ForgotPassword />);
+  routerManager.addRoute("/products", <ProductPage />);
+
+  //routas protegidas
+  routerManager.addProtectedRoute("/about", <About />, isAuthenticated); //solo como ejemplo
+
+  return <Router>{routerManager.getRoutes()}</Router>;
 };
 
 export default App;
