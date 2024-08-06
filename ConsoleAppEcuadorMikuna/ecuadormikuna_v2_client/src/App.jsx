@@ -16,7 +16,8 @@ import ResetPassword from "./components/ResetPassword";
 import "./App.css";
 import RouterManager from "./router/router";
 import ProductPage from "./pages/ProductPage";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import Logout from "./components/Logout";
 
 const App = () => {
   const isAuthenticated = true;
@@ -31,6 +32,7 @@ const App = () => {
 
   //routas protegidas
   routerManager.addProtectedRoute("/about", <About />, isAuthenticated); //solo como ejemplo
+  routerManager.addProtectedRoute("/logout", <Logout />, isAuthenticated);
 
   return <Router>{routerManager.getRoutes()}</Router>;
 };

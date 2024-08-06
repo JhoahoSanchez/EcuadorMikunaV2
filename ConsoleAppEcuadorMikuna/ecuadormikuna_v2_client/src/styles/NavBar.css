@@ -17,7 +17,7 @@
 }
 
 .navbar-logo {
-  font-size: 2em;
+  font-size: 3.5em;
   text-decoration: none;
   color: #eee9da;
 }
@@ -30,16 +30,20 @@
   display: flex;
   float: inline-end;
   gap: 1.5rem;
-  margin: 12px 0;
+  margin: 20px 0;
   padding: 0;
 }
 
 .navbar-links a {
-  font-size: 1.2em;
+  font-size: 2em;
   text-decoration: none;
   color: #eee9da;
 }
 
 .navbar-links a:hover {
   color: #fff;
+}
+
+img {
+  width: 100px;
 }

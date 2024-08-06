@@ -3,6 +3,7 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 import { useAuthStore } from "../auth/auth";
 import Navbar from "./Navbar";
+import NavbarLoged from "./NavbarLoged";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Login = () => {
@@ -29,7 +30,7 @@ const Login = () => {
 
   return (
     <div>
-      <Navbar />
+      {sessionStorage.getItem("isAuthenticated") ? <NavbarLoged /> : <Navbar />}
       <div className="container mt-5">
         <div className="row justify-content-center">
           <div className="col-md-6">
