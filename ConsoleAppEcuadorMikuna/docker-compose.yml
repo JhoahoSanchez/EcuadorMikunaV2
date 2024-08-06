@@ -1,0 +1,26 @@
+version: '3.4'
+
+services:
+  apigateway:
+    build:
+      context: .
+      dockerfile: ApiGateway/Dockerfile
+    ports:
+      - "5008:5008"
+    depends_on:
+      - orders
+      - stores
+
+  orders:
+    build:
+      context: .
+      dockerfile: Orders/Dockerfile
+    ports:
+      - "5251:5251"
+
+  stores:
+    build:
+      context: .
+      dockerfile: Stores/Dockerfile
+    ports:
+      - "5280:5280"

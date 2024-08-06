@@ -7,7 +7,7 @@
 
         public Client() { 
             Orders = new List<Order>();
-        }
+        }   
 
         public Client(string username) {
             this.Name = username;

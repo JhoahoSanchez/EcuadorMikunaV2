@@ -13,6 +13,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{E4
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "ecuadormikuna_v2_client", "EcuadorMikuna_V2_Client\ecuadormikuna_v2_client.esproj", "{FA172FFE-45D8-40AF-AD8E-833A952000B7}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrdersService", "OrdersService\OrdersService.csproj", "{43C6D966-887C-41E3-B6B5-42779A3D9783}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StoresService", "StoresService\StoresService.csproj", "{26572316-1159-4D99-B5A7-4974D4BCD532}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiGatewayEcuadorMikuna", "ApiGatewayEcuadorMikuna\ApiGatewayEcuadorMikuna.csproj", "{95C1851D-2CC8-4FBB-8CA5-093E367778E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{35434EDB-4906-40EB-960D-05E5CBF4B54B}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsersService", "UsersService\UsersService.csproj", "{194EA9ED-1B2D-4B29-B78A-AC6CAB4ABC53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +46,22 @@ Global
 		{FA172FFE-45D8-40AF-AD8E-833A952000B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA172FFE-45D8-40AF-AD8E-833A952000B7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FA172FFE-45D8-40AF-AD8E-833A952000B7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{43C6D966-887C-41E3-B6B5-42779A3D9783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43C6D966-887C-41E3-B6B5-42779A3D9783}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43C6D966-887C-41E3-B6B5-42779A3D9783}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43C6D966-887C-41E3-B6B5-42779A3D9783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26572316-1159-4D99-B5A7-4974D4BCD532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26572316-1159-4D99-B5A7-4974D4BCD532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26572316-1159-4D99-B5A7-4974D4BCD532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26572316-1159-4D99-B5A7-4974D4BCD532}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95C1851D-2CC8-4FBB-8CA5-093E367778E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95C1851D-2CC8-4FBB-8CA5-093E367778E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95C1851D-2CC8-4FBB-8CA5-093E367778E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95C1851D-2CC8-4FBB-8CA5-093E367778E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{194EA9ED-1B2D-4B29-B78A-AC6CAB4ABC53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{194EA9ED-1B2D-4B29-B78A-AC6CAB4ABC53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{194EA9ED-1B2D-4B29-B78A-AC6CAB4ABC53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{194EA9ED-1B2D-4B29-B78A-AC6CAB4ABC53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,6 +69,10 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{7389C6D5-3E57-41AB-99BC-E759DD3F5199} = {E87EE874-2674-41A0-80C1-F727C1943053}
 		{FA172FFE-45D8-40AF-AD8E-833A952000B7} = {E4634227-CE75-4609-BA9D-516144925756}
+		{43C6D966-887C-41E3-B6B5-42779A3D9783} = {E87EE874-2674-41A0-80C1-F727C1943053}
+		{26572316-1159-4D99-B5A7-4974D4BCD532} = {E87EE874-2674-41A0-80C1-F727C1943053}
+		{95C1851D-2CC8-4FBB-8CA5-093E367778E7} = {E87EE874-2674-41A0-80C1-F727C1943053}
+		{194EA9ED-1B2D-4B29-B78A-AC6CAB4ABC53} = {E87EE874-2674-41A0-80C1-F727C1943053}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6FEB9595-4629-4C40-948C-36B1C42BA3FD}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "rY2rYXFg6TM4+uaoaUogyllOSnaInZTGixcjg3zpeMU=",
+  "Source": "ApiGatewayEcuadorMikuna",
+  "BasePath": "_content/ApiGatewayEcuadorMikuna",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
