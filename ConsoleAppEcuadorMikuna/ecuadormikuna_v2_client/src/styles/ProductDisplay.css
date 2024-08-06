@@ -1,0 +1,13 @@
+.product-card {
+  height: 100%; /* Asegura que la tarjeta ocupe toda la altura de la columna */
+  min-height: 400px; /* Altura mínima para asegurar que las tarjetas tengan un tamaño uniforme */
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card .card-body {
+  flex-grow: 1; /* Permite que el contenido crezca para llenar el espacio */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Asegura que el contenido esté distribuido uniformemente */
+}

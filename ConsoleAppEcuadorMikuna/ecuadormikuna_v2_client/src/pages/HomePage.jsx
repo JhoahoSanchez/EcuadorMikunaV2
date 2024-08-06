@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import NavbarLoged from "../components/NavbarLoged";
 import "../styles/Home.css";
 import { useNavigate } from "react-router-dom";
 
@@ -12,7 +13,7 @@ const HomePage = () => {
 
   return (
     <div>
-      <Navbar />
+      {sessionStorage.getItem("isAuthenticated") ? <NavbarLoged /> : <Navbar />}
       <div className="home">
         <div className="hero-section">
           <img
