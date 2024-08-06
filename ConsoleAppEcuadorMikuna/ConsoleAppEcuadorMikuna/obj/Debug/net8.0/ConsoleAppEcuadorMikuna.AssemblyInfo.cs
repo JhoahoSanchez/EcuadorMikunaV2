@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConsoleAppEcuadorMikuna")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c65d7653117ae0ee9bffcb4ba0101ab74feaa4a1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d4ddd3ea0845090a8f8ca626b0c28913ad6f0fb")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConsoleAppEcuadorMikuna")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConsoleAppEcuadorMikuna")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

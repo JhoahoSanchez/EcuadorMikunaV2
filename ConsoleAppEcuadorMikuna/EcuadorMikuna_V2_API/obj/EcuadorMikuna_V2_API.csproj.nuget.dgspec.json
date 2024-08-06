@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programacion\\Web\\DotNET\\EcuadorMikuna_V2\\ConsoleAppEcuadorMikuna\\EcuadorMikuna_V2_API\\EcuadorMikuna_V2_API.csproj": {}
+    "D:\\Windows\\Programacion\\AplicacionesWebAvanzadas\\DotNET\\EcuadorMikunaV2\\EcuadorMikunaV2\\ConsoleAppEcuadorMikuna\\EcuadorMikuna_V2_API\\EcuadorMikuna_V2_API.csproj": {}
   },
   "projects": {
-    "D:\\Programacion\\Web\\DotNET\\EcuadorMikuna_V2\\ConsoleAppEcuadorMikuna\\EcuadorMikuna_V2_API\\EcuadorMikuna_V2_API.csproj": {
+    "D:\\Windows\\Programacion\\AplicacionesWebAvanzadas\\DotNET\\EcuadorMikunaV2\\EcuadorMikunaV2\\ConsoleAppEcuadorMikuna\\EcuadorMikuna_V2_API\\EcuadorMikuna_V2_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programacion\\Web\\DotNET\\EcuadorMikuna_V2\\ConsoleAppEcuadorMikuna\\EcuadorMikuna_V2_API\\EcuadorMikuna_V2_API.csproj",
+        "projectUniqueName": "D:\\Windows\\Programacion\\AplicacionesWebAvanzadas\\DotNET\\EcuadorMikunaV2\\EcuadorMikunaV2\\ConsoleAppEcuadorMikuna\\EcuadorMikuna_V2_API\\EcuadorMikuna_V2_API.csproj",
         "projectName": "EcuadorMikuna_V2_API",
-        "projectPath": "D:\\Programacion\\Web\\DotNET\\EcuadorMikuna_V2\\ConsoleAppEcuadorMikuna\\EcuadorMikuna_V2_API\\EcuadorMikuna_V2_API.csproj",
-        "packagesPath": "C:\\Users\\Jhoaho\\.nuget\\packages\\",
-        "outputPath": "D:\\Programacion\\Web\\DotNET\\EcuadorMikuna_V2\\ConsoleAppEcuadorMikuna\\EcuadorMikuna_V2_API\\obj\\",
+        "projectPath": "D:\\Windows\\Programacion\\AplicacionesWebAvanzadas\\DotNET\\EcuadorMikunaV2\\EcuadorMikunaV2\\ConsoleAppEcuadorMikuna\\EcuadorMikuna_V2_API\\EcuadorMikuna_V2_API.csproj",
+        "packagesPath": "C:\\Users\\jhoah\\.nuget\\packages\\",
+        "outputPath": "D:\\Windows\\Programacion\\AplicacionesWebAvanzadas\\DotNET\\EcuadorMikunaV2\\EcuadorMikunaV2\\ConsoleAppEcuadorMikuna\\EcuadorMikuna_V2_API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Jhoaho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jhoah\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -96,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -5,10 +5,10 @@ import { useNavigate } from "react-router-dom";
 
 const ProductDisplay = ({ products }) => {
   const porductImage = [
-    "src/assets/bolon.png",
     "src/assets/capuccino.png",
-    "src/assets/mocaccino.png",
     "src/assets/tigrillo.png",
+    "src/assets/mocaccino.png",
+    "src/assets/bolon.png",
   ];
   const navigate = useNavigate();
 
