@@ -24,11 +24,12 @@ export const ProductList = ({ onProductsFetched }) => {
     getProducts();
   }, []);
 
+  /*
   return (
     <div>
       {products.map((product) => (
         <div key={product.id}>{product.name}</div>
       ))}
     </div>
-  );
+  );*/
 };

@@ -16,6 +16,7 @@ import ResetPassword from "./components/ResetPassword";
 import "./App.css";
 import RouterManager from "./router/router";
 import ProductPage from "./pages/ProductPage";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   const isAuthenticated = true;

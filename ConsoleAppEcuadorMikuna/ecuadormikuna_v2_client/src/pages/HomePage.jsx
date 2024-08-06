@@ -1,8 +1,15 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import "../styles/Home.css";
+import { useNavigate } from "react-router-dom";
 
 const HomePage = () => {
+  const navigate = useNavigate();
+
+  const handleButtonClick = () => {
+    navigate("/products");
+  };
+
   return (
     <div>
       <Navbar />
@@ -16,9 +23,11 @@ const HomePage = () => {
           <div className="hero-text">
             <div>
               <h1>Bienvenido a Ecuador Mikuna</h1>
-              <p>Sabor, Tradición y Calidad en Cada Taza</p>
+              <p>Welcome Warmicunas Panicunas</p>
             </div>
-            <button className="cta-button">Explorar Menú</button>
+            <button className="cta-button" onClick={handleButtonClick}>
+              Explorar Menú
+            </button>
           </div>
         </div>
         <div className="about-section">
