@@ -1,6 +1,5 @@
-import React from "react";
+import React, {useState} from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import Navbar from "./components/Navbar";
 import HomePage from "./pages/HomePage";
 import About from "./components/About";
 import Contact from "./components/Contact";
@@ -18,21 +17,27 @@ import RouterManager from "./router/router";
 import ProductPage from "./pages/ProductPage";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Logout from "./components/Logout";
+import CartPage from "./pages/CartPage";
 
 const App = () => {
-  const isAuthenticated = true;
+  const isAuthenticated = sessionStorage.getItem("isAuthenticated");
   const routerManager = new RouterManager();
+  const [cart, setCart] = useState({
+    userId: null,
+    items: [],
+  });
 
   //agregar las rutas
   routerManager.addRoute("/", <HomePage />);
   routerManager.addRoute("/login", <Login />);
   routerManager.addRoute("/signup", <SignUp />);
   routerManager.addRoute("/forgot-password", <ForgotPassword />);
-  routerManager.addRoute("/products", <ProductPage />);
+  routerManager.addRoute("/products", <ProductPage cart={cart} setCart={setCart} />);
 
   //routas protegidas
   routerManager.addProtectedRoute("/about", <About />, isAuthenticated); //solo como ejemplo
   routerManager.addProtectedRoute("/logout", <Logout />, isAuthenticated);
+  routerManager.addProtectedRoute("/cart", <CartPage cart={cart} setCart={setCart} />, isAuthenticated );
 
   return <Router>{routerManager.getRoutes()}</Router>;
 };

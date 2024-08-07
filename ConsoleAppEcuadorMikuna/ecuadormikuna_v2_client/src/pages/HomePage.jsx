@@ -69,12 +69,12 @@ const HomePage = () => {
           <h2>Nuestro Menú</h2>
           <div className="menu-items">
             <div className="menu-item">
-              <img src="path_to_item_image.jpg" alt="Cafe Item" />
+              <img src="src/assets/capuccino.png" alt="Cafe Item" />
               <p>Café Especial</p>
             </div>
             <div className="menu-item">
-              <img src="path_to_item_image.jpg" alt="Cafe Item" />
-              <p>Pastelería Fina</p>
+              <img src="src/assets/tigrillo.png" alt="Cafe Item" />
+              <p>Desayunos ecuatorianos</p>
             </div>
             {/* Añade más items del menú según sea necesario */}
           </div>

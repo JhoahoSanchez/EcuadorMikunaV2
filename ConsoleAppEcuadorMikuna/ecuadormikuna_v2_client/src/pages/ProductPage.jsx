@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 import NavbarLoged from "../components/NavbarLoged";
 import { Container, Row, Col, Form, InputGroup } from "react-bootstrap";
 
-const ProductPage = () => {
+const ProductPage = ({ cart, setCart}) => {
   const [products, setProducts] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [categoryFilter, setCategoryFilter] = useState("");
@@ -81,7 +81,7 @@ const ProductPage = () => {
               priceFilter={priceFilter}
               onProductsFetched={setProducts}
             />
-            <ProductDisplay products={products} />
+            <ProductDisplay products={products} cart={cart} setCart={setCart} />
           </Col>
         </Row>
       </Container>

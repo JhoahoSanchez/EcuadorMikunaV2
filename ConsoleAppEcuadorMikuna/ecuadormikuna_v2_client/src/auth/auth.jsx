@@ -13,7 +13,10 @@ export const useAuthStore = () => {
     sessionStorage.setItem("isAuthenticated", "true");
     sessionStorage.setItem("user", JSON.stringify(data));
     //cart
-    sessionStorage;
+    sessionStorage.setItem("cart", JSON.stringify({
+      userId: data.id,
+      items: [],
+    }));
     //console.log(data);
     navigate("/"); // Redirige después de iniciar sesión
   };
@@ -23,6 +26,7 @@ export const useAuthStore = () => {
     setUser(null);
     sessionStorage.removeItem("isAuthenticated");
     sessionStorage.removeItem("user");
+    sessionStorage.removeItem("cart");
     navigate("/"); // Redirige a la página de login después de cerrar sesión
   };
 

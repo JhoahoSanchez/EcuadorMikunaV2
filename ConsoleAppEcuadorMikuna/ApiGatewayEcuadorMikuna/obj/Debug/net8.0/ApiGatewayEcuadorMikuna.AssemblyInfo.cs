@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiGatewayEcuadorMikuna")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d4ddd3ea0845090a8f8ca626b0c28913ad6f0fb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d38d95e5bc56e56a140cd98a023acfb04ffd35c8")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiGatewayEcuadorMikuna")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiGatewayEcuadorMikuna")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import React from "react";
 
-const Cart = () => {
+export const Cart = () => {
   const [cart, setCart] = useState({
     userId: null,
     items: [],
@@ -22,13 +22,31 @@ const Cart = () => {
         quantity: 1,
       };
     }
-
     // Actualizar el estado del carrito en React
     setCart(currentCart);
 
     // Actualizar el carrito en sessionStorage
     sessionStorage.setItem("cart", JSON.stringify(currentCart));
   };
-};
 
-export default Cart;
+  const removeProductFromCart = (productId) => {
+    setCart((prevCart) => {
+      // Filtra los productos que no coinciden con el productId a remover
+      const updatedItems = prevCart.items.filter(
+        (item) => item.productId !== productId
+      );
+
+      // Retorna un nuevo carrito con los items actualizados
+      return {
+        ...prevCart,
+        items: updatedItems,
+      };
+    });
+  };
+
+  return {
+    cart,
+    addProductToCart,
+    removeProductFromCart,
+  };
+};

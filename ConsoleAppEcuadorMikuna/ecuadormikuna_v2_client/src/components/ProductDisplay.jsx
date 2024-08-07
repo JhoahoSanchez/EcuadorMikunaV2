@@ -3,7 +3,7 @@ import { Card, Button, Row, Col } from "react-bootstrap";
 import "../styles/ProductDisplay.css";
 import { useNavigate } from "react-router-dom";
 
-const ProductDisplay = ({ products }) => {
+const ProductDisplay = ({ products, cart, setCart }) => {
   const porductImage = [
     "src/assets/capuccino.png",
     "src/assets/tigrillo.png",
@@ -12,14 +12,23 @@ const ProductDisplay = ({ products }) => {
   ];
   const navigate = useNavigate();
 
-  const handleClick = (id) => {
+  const addProductToCart = (product) => {
+    const updatedCart = {
+      ...cart,
+      items: [...cart.items, { ...product, quantity: 1 }],
+    };
+    setCart(updatedCart);
+  };
+
+  const handleClick = (product) => {
     let isAuthenticated = sessionStorage.getItem("isAuthenticated");
     if (!isAuthenticated) {
       navigate("/login");
     } else {
-      let user = sessionStorage.getItem("user");
       //TODO: agregar al carrito del usuario
-      console.log("Ha entrado a agregar " + products[id - 1].name);
+      addProductToCart(product);
+      //navigate("/cart");
+      console.log("Ha entrado a agregar " + product.name);
     }
   };
 
@@ -44,7 +53,7 @@ const ProductDisplay = ({ products }) => {
                   <Button
                     variant="primary"
                     type="submit"
-                    onClick={() => handleClick(product.id)}
+                    onClick={() => handleClick(product)}
                   >
                     Agregar al carrito
                   </Button>
