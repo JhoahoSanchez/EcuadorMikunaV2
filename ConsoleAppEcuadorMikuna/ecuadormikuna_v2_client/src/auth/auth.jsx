@@ -7,11 +7,14 @@ export const useAuthStore = () => {
   const navigate = useNavigate();
 
   const handleLogin = (data) => {
+    //user
     setIsAuthenticated(true);
     setUser(data);
     sessionStorage.setItem("isAuthenticated", "true");
     sessionStorage.setItem("user", JSON.stringify(data));
-    console.log(data);
+    //cart
+    sessionStorage;
+    //console.log(data);
     navigate("/"); // Redirige después de iniciar sesión
   };
 
